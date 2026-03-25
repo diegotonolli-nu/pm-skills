@@ -7,7 +7,7 @@ Skills de Claude Code para PMs do time de Shared App Experience (Magic App BR).
 | Skill | Comando | Descrição |
 |---|---|---|
 | pm-biweekly | `/pm-biweekly` | Gera o bi-weekly update de status para stakeholders sênior |
-| pm-meeting | `/pm-meeting` | Transforma transcrição de reunião em ata estruturada |
+| pm-meeting | `/pm-meeting` | Transforma transcrição de reunião em ata com contexto, resumo da agenda, decisões e próximos passos |
 | pm-prototype | `/pm-prototype <link-figma ou descrição>` | Gera o código de uma nova tela para o protótipo `br-magic-app-prototype-main` |
 
 ## Instalação
