@@ -8,6 +8,7 @@ Skills de Claude Code para PMs do time de Shared App Experience (Magic App BR).
 |---|---|---|
 | pm-biweekly | `/pm-biweekly` | Gera o bi-weekly update de status para stakeholders sênior |
 | pm-meeting | `/pm-meeting` | Transforma transcrição de reunião em ata estruturada |
+| pm-prototype | `/pm-prototype <link-figma ou descrição>` | Gera o código de uma nova tela para o protótipo `br-magic-app-prototype-main` |
 
 ## Instalação
 
@@ -32,11 +33,12 @@ Depois instale:
 /plugin marketplace add diegotonolli-nu/pm-skills
 /plugin install pm-biweekly@pm-skills
 /plugin install pm-meeting@pm-skills
+/plugin install pm-prototype@pm-skills
 ```
 
 ### Opção 2 - manual
 
-Copie os arquivos de `plugins/pm/pm-biweekly/commands/` e `plugins/pm/pm-meeting/commands/` para `~/.claude/commands/`.
+Copie os arquivos de `plugins/pm/pm-biweekly/commands/`, `plugins/pm/pm-meeting/commands/` e `plugins/pm/pm-prototype/commands/` para `~/.claude/commands/`.
 
 ## Customização
 
