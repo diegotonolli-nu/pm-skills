@@ -13,6 +13,13 @@
       "source": "./plugins/pm/pm-meeting",
       "category": "productivity",
       "version": "1.0.0"
+    },
+    {
+      "name": "pm-prototype",
+      "description": "Gera o código de uma nova tela para o protótipo br-magic-app-prototype-main a partir de link Figma ou descrição textual",
+      "source": "./plugins/pm/pm-prototype",
+      "category": "productivity",
+      "version": "1.0.0"
     }
   ]
 }
