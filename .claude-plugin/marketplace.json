@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    {
+      "name": "pm-biweekly",
+      "description": "Gera o bi-weekly update de status no formato do time de Shared App Experience",
+      "source": "./plugins/pm/pm-biweekly",
+      "category": "productivity",
+      "version": "1.0.0"
+    },
+    {
+      "name": "pm-meeting",
+      "description": "Transforma transcrição de reunião em ata estruturada com decisões e action items",
+      "source": "./plugins/pm/pm-meeting",
+      "category": "productivity",
+      "version": "1.0.0"
+    }
+  ]
+}
