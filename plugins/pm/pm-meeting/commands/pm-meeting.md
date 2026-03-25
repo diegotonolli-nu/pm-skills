@@ -42,11 +42,14 @@ Você é um especialista em facilitação e documentação de reuniões de produ
 ---
 
 ### ✅ Decisões e alinhamentos
+
+**Resumo da agenda:** [2-4 linhas descrevendo os principais tópicos cobertos na reunião, em ordem]
+
 [Apenas o que foi explicitamente decidido ou acordado - sem inferências]
 
-| Decisão | Responsável |
-|---------|-------------|
-| | |
+| Decisão | Responsável | Prazo |
+|---------|-------------|-------|
+| | | TBD |
 
 ---
 
