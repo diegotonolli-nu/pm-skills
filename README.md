@@ -1,21 +1,21 @@
 # pm-skills
 
-Skills de Claude Code para PMs do time de Shared App Experience (Magic App BR).
+Claude Code skills for PMs on the Shared App Experience team (Magic App BR).
 
-## Skills disponíveis
+## Available Skills
 
-| Skill | Comando | Descrição |
+| Skill | Command | Description |
 |---|---|---|
-| pm-biweekly | `/pm-biweekly` | Gera o bi-weekly update de status para stakeholders sênior |
-| pm-meeting | `/pm-meeting` | Transforma transcrição de reunião em ata com contexto, resumo da agenda, decisões e próximos passos |
-| pm-pre-planning | `/pm-pre-planning` | Prepara o pre-planning do próximo sprint: audita planning docs, enriquece descrições no Jira e gera .docx de alinhamento |
-| pm-prototype | `/pm-prototype <link-figma ou descrição>` | Gera o código de uma nova tela para o protótipo `br-magic-app-prototype-main` |
+| pm-biweekly | `/pm-biweekly` | Generates the bi-weekly status update for senior stakeholders |
+| pm-meeting | `/pm-meeting` | Transforms a meeting transcript into structured notes with context, agenda summary, decisions, and next steps |
+| pm-pre-planning | `/pm-pre-planning` | Prepares the next sprint pre-planning: audits planning docs, enriches Jira descriptions, and generates an alignment .docx |
+| pm-prototype | `/pm-prototype <figma-link or description>` | Generates the code for a new screen in the `br-magic-app-prototype-main` prototype |
 
-## Instalação
+## Installation
 
-### Opção 1 - via marketplace (recomendado)
+### Option 1 - via marketplace (recommended)
 
-Adicione este repo como marketplace no seu `settings.json`:
+Add this repo as a marketplace in your `settings.json`:
 
 ```json
 {
@@ -28,7 +28,7 @@ Adicione este repo como marketplace no seu `settings.json`:
 }
 ```
 
-Depois instale:
+Then install:
 
 ```
 /plugin marketplace add diegotonolli-nu/pm-skills
@@ -38,10 +38,10 @@ Depois instale:
 /plugin install pm-prototype@pm-skills
 ```
 
-### Opção 2 - manual
+### Option 2 - manual
 
-Copie os arquivos de `plugins/pm/pm-biweekly/commands/`, `plugins/pm/pm-meeting/commands/`, `plugins/pm/pm-pre-planning/commands/` e `plugins/pm/pm-prototype/commands/` para `~/.claude/commands/`.
+Copy the files from `plugins/pm/pm-biweekly/commands/`, `plugins/pm/pm-meeting/commands/`, `plugins/pm/pm-pre-planning/commands/`, and `plugins/pm/pm-prototype/commands/` to `~/.claude/commands/`.
 
-## Customização
+## Customization
 
-Cada skill foi desenvolvida para o contexto de Aspirational App Spaces, mas é facilmente adaptável. Configure no seu `CLAUDE.md` as URLs do Program Tracker, doc consolidado de bi-weekly e os hubs/iniciativas da sua área.
+Each skill was developed for the Aspirational App Spaces context, but is easily adaptable. Configure in your `CLAUDE.md` the URLs for the Program Tracker, the consolidated bi-weekly doc, and the hubs/initiatives for your area.
