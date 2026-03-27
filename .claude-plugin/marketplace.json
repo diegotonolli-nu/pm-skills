@@ -1,4 +1,8 @@
 {
+  "name": "pm-skills",
+  "owner": {
+    "name": "diegotonolli-nu"
+  },
   "plugins": [
     {
       "name": "pm-biweekly",
